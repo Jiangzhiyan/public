@@ -12,12 +12,14 @@
 
         echo '<p>You rolled a ' . $roll . '.</p>';
 
-        if ($roll == 6) {
-          // code...
+        if ($roll > 4) {
+
           echo '<p> You win! </p>';
+
         } else {
-          // code...
+
           echo '<p> Sorry, you didn\'t win, better luck next time! </p>';
+
         }
 
         echo '<p> Thank you for playing </p>';

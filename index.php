@@ -2,13 +2,13 @@
 <html lang='en'>
   <head>
     <meta charset="utf-8">
-    <title>Random Number</title>
+    <title>Test Page</title>
   </head>
   <body>
-    <p>Generating a random number between 1 and 10:
+    <p>
       <?php
 
-        echo rand(1, 10);
+        echo 'This is a <strong> test </strong>';
 
       ?>
     </p>

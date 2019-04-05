@@ -5,6 +5,7 @@
     <title></title>
   </head>
   <body>
+    <h1> Test Pages </h1>
     <?php
 
       $name = $_GET['name'];

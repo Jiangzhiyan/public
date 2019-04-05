@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <title>Enter your name</title>
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
-    <h1> Test Pages of Get </h1>
+      <form action="" method="Post">
+        <label for="firstname">first name:</label>
+        <input type="text" name="firstname" id="firstname">
 
-    <?php
+        <label for="lastname">Last name:</label>
+        <input type="text" name="lastname" id="lastname">
 
-      echo $output;
-
-    ?>
-
+        <input type="submit" value="Go">
+      </form>
   </body>
 </html>

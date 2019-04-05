@@ -8,7 +8,19 @@
     <p>
       <?php
 
-        echo 'This is a <strong> test </strong>';
+        $roll = rand(1, 6);
+
+        echo '<p>You rolled a ' . $roll . '.</p>';
+
+        if ($roll == 6) {
+          // code...
+          echo '<p> You win! </p>';
+        } else {
+          // code...
+          echo '<p> Sorry, you didn\'t win, better luck next time! </p>';
+        }
+
+        echo '<p> Thank you for playing </p>';
 
       ?>
     </p>
